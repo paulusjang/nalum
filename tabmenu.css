@@ -1,0 +1,44 @@
+#container {
+	width:260px;
+	min-width: 100px;
+	margin: 5px 0 0 0;
+	padding: 0;
+	border: 1px solid #CCC; border-right: none;
+	text-align:center;
+	background-color: #EEE;
+}
+.tab {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+/* Float the list items side by side */
+.tab li {
+	float: left;
+	width: 33.3%;
+}
+/* Style the links inside the list items */
+.tab li a {
+	display: inline-block;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 12px;
+	font-size: 12px;
+	transition:0.3s;
+}
+/* Style the tab content */
+.tabcontent {
+	display: none;
+	background-color: #FFF;
+	padding: 6px 12px;
+	color: #222;
+}
+ul.tab li.current{
+	background-color: #FFF;
+	color: #222;
+}
+.tabcontent.current {
+	display: block;
+}

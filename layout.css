@@ -1,0 +1,338 @@
+body {
+  font: 14px/1.8 nanumgodic, dotum, sans-serif;
+  padding: 0;
+  margin: 0 auto;
+}
+  #frame {
+    max-width: 100%;
+    min-width: 980px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .ad_top {
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: yellow;
+    background-image: url('img/top_ad.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+  }
+  #header {
+    width: 100%;
+    min-width: 980px;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+    background: #693a96;
+    text-align: center;
+  }
+  .logo {
+    width: auto;
+    margin-left: 30px;
+    padding: 0;
+    font-size: 24px; font-weight: 900;
+    float: left;
+    line-height: 90px;
+    font-family: Helvetica, sans-serif;
+    color: #d1f18d;
+  }
+  .logo:hover{
+      color: white;
+  }
+  .searchbar {
+    width: 260px;
+    height: 90px;
+    margin-left: 50px;
+    padding: 0;
+    line-height: 85px;
+    float: left;
+  }
+  .searchbar input {
+    width: 200px;
+    height: 30px;
+    border: none;
+    background: #f2ffd6;
+    margin: 0 auto;
+    padding: 0 0 0 20px;
+    vertical-align: middle;
+    border-radius: 15px 0 0 15px;
+  }
+  .search_bt {
+    width: 40px;
+    height: 30px;
+    background-color: #f8585b;
+    color:#FFF;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 11px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    vertical-align: middle;
+  }
+  .topmenu {
+    width: auto;
+    margin-left: 30px;
+    padding: 0;
+    line-height: 90px;
+  }
+  .topmenu_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .topmeun_item {
+    margin: 0;
+    padding-left: 30px;
+    float: left;
+  }
+  .topmenu_link {
+    color: white;
+    font-family: nanumgodic, sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-decoration: none;
+  }
+  .topmenu_link:hover {
+    color : yellow;
+  }
+  .top_nav {
+    width: 100%;
+    min-width: 980px;
+    height: 32px;
+    margin: 0px;
+    padding: 0px;
+    font-family: dotum, sans-serif;
+    background-color: #EFEFEF;
+    display: block;
+  }
+  .top_nav div {
+    width: auto;
+    float: left;
+    margin: 0 15px 0 10px;
+    padding: 0px;
+    line-height: 30px;
+    text-decoration: none;
+  }
+  .top_nav_link {
+    font-family: dotum;
+    font-size: 11px;
+    text-decoration: none;
+  }
+  .top_nav_link:hover {
+    color: orange;
+  }
+  #main_banner {
+    width: 100%;
+    min-width: 980px;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #58beff;
+    background-image: url(img/mainbanner_01.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    cursor: pointer;
+  }
+  #con_container {
+    width: 100%;
+    min-width: 980px;
+    margin: 0 0 0 0;
+    padding: 0px;
+    display: inline-flex;
+  }
+  .nav {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: inline-block;
+    border-right: 1px solid #CCC;
+  }
+  .nav_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .nav_item {
+    margin: 0;
+    width: 250px;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 1px solid #CCC;
+    border-right: none;
+    border-top: none;
+    text-align: left;
+    line-height: 20px;
+    background-image: url('http://store.musinsa.com/skin/musinsa/images/add.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
+  }
+  .nav_item:hover {
+    background-color: #EEE;
+  }
+  .nav_link {
+    color: black;
+    font-family: dotum;
+    font-size: 13px;
+    font-weight: 800;
+    text-decoration: none;
+  }
+  .nav_link:hover {
+    color: gray;
+  }
+  .content {
+    width: 100%;
+    min-width: 540px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    float: left;
+  }
+  .main_goods {
+    width: auto;
+    min_width: 500px;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+    padding: 30px;
+    border-bottom: 1px solid #CCC;
+  }
+  .main_goods_cate {
+    width: 176px;
+    height: 280px;
+    overflow: hidden;
+    margin: 0 0 0 11px;
+    padding: 10px;
+    border: 1px dashed black;
+    border-width: 100%;
+    float: left;
+    clear: both;
+  }
+  .product_01 {
+    width: 180px;
+    height: auto;
+    max-height: 300px;
+    margin-left: 10px;
+    padding: 10px;
+    text-align: left;
+    font-size: 12px;
+    font-family: dotum, sans-serif;
+    color: black;
+    float: left;
+    position: static;
+  }
+  .product_01:hover {
+    background: #EEE;
+  }
+  .product_01 img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .product_tab {
+    width: 100px;
+    max-height: 200px;
+    margin-left: 0px;
+    padding: 7px;
+    text-align: left;
+    font-size: 11px;
+    font-family: dotum, sans-serif;
+    color: black;
+    display: inline-block;
+  }
+  .product_tab:hover {
+    background-color:#EEE;
+    color: black;
+  }
+  .product_tab img {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .text_break {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    line-height: 1.2em;
+    height: 3.6em;
+  }
+  .text_break_tabs {
+    color:black;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    line-height: 1.2em;
+    max-height: 2.4em;
+  }
+  #footer {
+    clear: both;
+    width: 100%;
+    min-width: 980px;
+    margin: 15px 0 0 0;
+    padding: 0;
+    float: left;
+    text-align: center;
+    font-family: dotum, sans-serif;
+    font-weight: 600;
+    font-size: 0.9em;
+  }
+  .s_text {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: blue;
+  }
+  .b_text {
+    font-size: 1.1em;
+    font-weight: 600;
+  }
+  .link_x{
+    text-decoration: none;
+    color: inherit;
+  }
+  .goods_brand {
+    text-decoration: none;
+    font-size: 0.95em;
+    color: #666;
+    padding: 0;
+    margin: 10px 0 0 0;
+  }
+  .goods_brand_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .goods_brand_item {
+   border: 1px dashed #ccc;
+   padding: 1px;
+   margin: 1px 2px 1px 2px;
+   float: left;
+  }
+  .goods_brand_item:hover {
+   background-color: #eee;
+  }
+  .goods_brand_link {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: inherit;
+  }
+  .cscenter {
+    margin: 5px 0 0 0;
+    padding: 5px;
+    width: 250px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-right: none;
+  }
